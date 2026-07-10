@@ -1,0 +1,4 @@
+# Minimal Supabase CLI config.
+# Required so `supabase link` / `supabase db push` can locate the project in CI.
+# The remote project is selected in CI via `supabase link --project-ref <ref>`.
+project_id = "collegelife"
